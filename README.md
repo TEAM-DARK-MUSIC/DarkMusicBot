@@ -1,2 +1,0 @@
-# DarkMusicBot
-Official Music Bot
