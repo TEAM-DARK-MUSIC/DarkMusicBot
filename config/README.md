@@ -2,14 +2,13 @@
 
 Config vars are basically the variables which configure or modify bot to function, which are the basic necessities of plugins or code to work. You have to set the proper mandatory vars to make it functional and to start the basic feature of bot.
 
-### Get to know about all these vars in depth from our Docs. [Read Now from Here](https://notreallyshikhar.gitbook.io/yukkimusicbot/config-vars/available-vars)
 
 ## Mandatory Vars
 
 - These are the minimum required vars need to setup to make Dark Music Bot functional.
 
 1. `API_ID` : Get it from my.telegram.org 
-2. `API_HASH`  : Get it from my.telegram.org 
+2. `API_HASH`  : Get it from my.telegram.org
 3. `BOT_TOKEN` : Get it from [@Botfather](http://t.me/BotFather) in Telegram
 4. `MONGO_DB_URI` : Get mongo db [from here.](https://telegra.ph/MongoDB-04-06)
 5. `LOG_GROUP_ID` : You'll need a Private Group ID for this. Supergroup Needed with id starting from -100 
@@ -29,7 +28,7 @@ Config vars are basically the variables which configure or modify bot to functio
 5. `PLAYLIST_FETCH_LIMIT` :  Maximum limit for fetching playlist's track from youtube, spotify, apple links. Default to 25
 6. `CLEANMODE_MINS` : Cleanmode time after which bot will delete its old messages from chats. Default to 5 Mins.
 7. `SUPPORT_CHANNEL` : If you've any channel for your music bot , fill it with your channel link
-8. `SUPPORT_GROUP` : If you've any group support for your music bot , fill it with your channel link
+8. `SUPPORT_GROUP` : If you've any group support for your music bot , fill it with your group link
 
 ## Play FileSize Limit Vars
 
@@ -70,7 +69,6 @@ Config vars are basically the variables which configure or modify bot to functio
 - To work some Heroku compatible modules, this var value required to Access your account to use `get_log`, `usage`, `update` etc etc commands.
 - You can fill this var using your API key or Authorization token.
 
-### How to get these? [Read from here](https://notreallyshikhar.gitbook.io/yukkimusicbot/config-vars/heroku-vars)
 
 1. `HEROKU_API_KEY` : Get it from http://dashboard.heroku.com/account 
 2. `HEROKU_APP_NAME` : You have to Enter the app name which you gave to identify your Music Bot in Heroku. 
