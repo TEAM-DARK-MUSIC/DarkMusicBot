@@ -1,4 +1,4 @@
-<img src="https://telegra.ph/file/edc1727f6afdeb378fce3.jpg" align="right" width="200" height="200"/>
+<img src="https://telegra.ph/file/edc1727f6afdeb378fce3.jpg" align="right" width="250" height="250"/>
 
 # Dark Music Bot <img src="https://img.shields.io/github/v/release/TEAM-DARK-MUSIC/DarkMusicBot?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
 
@@ -18,13 +18,15 @@ Here's a brief high-level overview of the Dark Music Bot:
 
 This project is based on [Pyrogram](https://github.com/pyrogram) and [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls) . Pyrogram is a modern, elegant and asynchronous MTProto API framework.
 
-* For database, Dark uses the MongoDB to store data and keys. [MongoDB](https://www.mongodb.com/) is a document database with the scalability and flexibility that you want with the querying and indexing that you need.
+* For database, Yukki uses the MongoDB to store data and keys. [MongoDB](https://www.mongodb.com/) is a document database with the scalability and flexibility that you want with the querying and indexing that you need.
 * Project uses the bs4 web scrapping for getting many platform details. [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) is a Python library for pulling data out of HTML and XML files.
 * The project uses the font [`Raleway`](../assets/font2.ttf) as its main font for the thumbnails.
 * The projects uses attractive images and icons which you can get in [assets](../assets/) directory.
 
 
+
 # ⚡️ Getting Started
+
 
 ### Before deploying Dark Music Bot , please have a look towards [all available config vars](../config/README.md) , also please check [all available commands](../strings/command.yml) of the project.
 
@@ -45,20 +47,26 @@ This project is based on [Pyrogram](https://github.com/pyrogram) and [Py-Tgcalls
 
 ## 🖇 Generating Pyrogram String Session
 
-- Generate a Pyrogram String Session via [Replit](https://replit.com/@darkempireslbots/DARK-MUSIC-STRING-GEN?v=1)
+- Generate a Pyrogram String Session via 
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@darkempireslbots/DARK-MUSIC-STRING-GEN?v=1)
 
 - Generate a Pyrogram String Session via [Telegram String Generation Bot](https://t.me/DarkStringBot)
 
 
 ## 🚀 Heroku Deployment
 
-<h4>Click the button below to deploy Dark on Heroku!</h4>    
-<a href="https://heroku.com/deploy?template=https://github.com/TEAM-DARK-MUSIC/DarkMusicBot/"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a>
+<h4>Click the button below to deploy Yukki on Heroku!</h4>    
+<a href="https://heroku.com/deploy/"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a>
+
+
+## 🚀 Okteto Deployment
+
+<h4>Click the button below to deploy Yukki on Okteto!</h4>
+<a href="https://cloud.okteto.com/deploy?repository=https://github.com/TEAM-DARK-MUSIC/DarkMusicBot"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="200""/></a>
 
 
 
 ## 🖇 VPS Deployment
-
 
 
 ```console
@@ -74,7 +82,6 @@ Dark@MacBook~ $ bash start
 ```
 
 
-
 ## 🏷 Support
 
 Reach out to the maintainer at one of the following places:
@@ -83,13 +90,13 @@ Reach out to the maintainer at one of the following places:
 - Contact options listed on [this GitHub profile](https://github.com/DARKEMPIRESL)
 - [Telegram Support](https://t.me/SLBotOfficial)
 
+
 ## 🎗 Project assistance
 
 If you want to say **thank you** or/and support active development of YukkiMusicBot:
 
-- Add a [GitHub Star](https://github.com/DARKEMPIRESL/DarkMusicBot) to the project.
+- Add a [GitHub Star](https://github.com/TEAM-DARK-MUSIC/DarkMusicBot) to the project.
 - Fork the Repo :)
-
 
 Together, we can make DarkMusicBot **better**!
 
@@ -107,7 +114,7 @@ For a full list of all authors and contributors, see [the contributors page](htt
 
 ## ⚠️ Security
 
-DarkMusicBot follows good practices of security, but 100% security cannot be assured. DarkMusicBot is provided **"as is"** without any **warranty**. Use at your own risk.
+YukkiMusicBot follows good practices of security, but 100% security cannot be assured. YukkiMusicBot is provided **"as is"** without any **warranty**. Use at your own risk.
 
 For more information and to report security issues, please refer to our [`SECURITY.md`](SECURITY.md)
 
@@ -120,14 +127,13 @@ See [LICENSE](../LICENSE) for more information.
 
 ## 📑 Acknowledgement
 
-Special thanks to these amazing projects/people which/who help power Dark Music Bot:
+Special thanks to these amazing projects/people which/who help power Yukki Music Bot:
 
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
 - [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
 - [CallsMusic Team](https://github.com/Callsmusic)
 - [TheHamkerCat](https://github.com/TheHamkerCat)
 - [Charon Baglari](https://github.com/XCBv021)
-- [Team Yukki](https://github.com/TeamYukki)
 
 
 Reminder that you are great, you are enough, and your presence is valued. If you are struggling with your mental health, please reach out to someone you love and consult a professional.
